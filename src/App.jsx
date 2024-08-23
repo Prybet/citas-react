@@ -24,9 +24,9 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto h-screen">
+    <div className="container mx-auto">
       <Header />
-      <div className="md:flex h-3/4">
+      <div className="md:grid grid-cols-2 h-3/4">
         <Form patients={patients} setPatients={setPatients} patient={patient} setPatient={setPatient} />
         <Patients patients={patients} setPatient={setPatient} deletePatient={deletePatient} />
       </div>

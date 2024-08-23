@@ -50,10 +50,10 @@ const Form = ({ patient, setPatient, patients, setPatients }) => {
     }
 
     return (
-        <div className="md:w-1/2 lg:w-2/5 mx-3 ">
+        <div className=" mx-3 ">
             <h2 className="font-black text-3xl text-center">Seguimiento pacientes</h2>
             <p className="text-lg mt-5 text-center mb-10">
-                Añade Pacientes y {""} <span className="text-indigo-600 font-bold">Adminitralos</span></p>
+                Añade Pacientes y {""} <span className="text-indigo-600 font-bold">Adminístralos</span></p>
 
             <form
                 onSubmit={handleSubmit}
@@ -114,7 +114,7 @@ const Form = ({ patient, setPatient, patients, setPatients }) => {
                 </div>
                 <div className="mb-5">
                     <label htmlFor="symptoms" className="block text-gray-700 uppercase font-bold">
-                        Sintomas
+                        Síntomas
                     </label>
                     <textarea
                         id="symptoms"
